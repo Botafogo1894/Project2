@@ -17,11 +17,7 @@ Those variables are:
 11. Categorical data concerning level of Religous Observance
 12. Schizophrenia rate
 
-After gathering and cleaning all the data, we scaled the independent variables. We then compared each of the variables collinearity through a SeaBorn Correlation Heatmap and by plotting pair plots of each independent variable's correlation to our target. 
-
-![](https://github.com/Botafogo1894/Project2/blob/master/screenshots/correlationheatmap.png)
-
-We began building our Linear Regression by adding on polynomial features to our data. We then used a combination of Recursive Feature Elimination and Cross Validation to pick the model with the optimal feature selection. 
+After gathering and cleaning all the data, we scaled the independent variables. We then compared each of the variables collinearity through a SeaBorn Correlation Heatmap and by plotting pair plots of each independent variable's correlation to our target. We began building our Linear Regression by adding on polynomial features to our data. We then used a combination of Recursive Feature Elimination and Cross Validation to pick the model with the optimal feature selection. 
 
 After selecting the features we wanted to use, we split our data into training and testing data (20% was for testing). We fit our regression using the training data and checked its accuracy on the test data. 
 The following graphs demonstrate the accuracy of our model:
